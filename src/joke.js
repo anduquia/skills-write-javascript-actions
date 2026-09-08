@@ -10,11 +10,7 @@ const options = {
             json: true,
         };
 
-        export async function getJoke() {
+        export async function getJoke()  {
               const res = await request(options);
                 return res.joke;
         }
-
-                }
-          }
-}
